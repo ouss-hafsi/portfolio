@@ -1,0 +1,1899 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('font/Regular/MYRIADPRO-REGULAR-webfont.eot');
+    src: url('font/Regular/MYRIADPRO-REGULAR-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Regular/MYRIADPRO-REGULAR-webfont.woff2') format('woff2'),
+         url('font/Regular/MYRIADPRO-REGULAR-webfont.woff') format('woff'),
+         url('font/Regular/MYRIADPRO-REGULAR-webfont.ttf') format('truetype'),
+         url('font/Regular/MYRIADPRO-REGULAR-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*************************************************** scroll bar color
+
+::-webkit-scrollbar              { width: 8px; background-color : #0a0a0a; border-radius : 0px; }
+::-webkit-scrollbar-button       { width: 8px; background-color : white; border-radius : 0px;}
+::-webkit-scrollbar-track        { width: 8px; background-color : #0a0a0a; border-radius : 0px; }
+::-webkit-scrollbar-thumb        { width: 8px;  background-color : white; border-radius : 0px;}
+/******** Placeholder ******/ 
+
+
+body{
+    margin: 0 ;
+    padding: 0;
+    overflow-x: hidden !important;
+    background-color: black;
+  }
+
+
+
+  /******************************************************  css page home******************************************/
+
+
+
+
+  .ideas{
+z-index:3;
+    color: white;
+    font-family: 'myriad pro';
+    font-size: 50px;
+font-weight: bold;
+margin-left: 100px;
+margin-top: 180px;}
+
+.design{color:#1364a3;
+   font-size: 50px;
+    font-family: 'myriad pro';
+font-weight: bold;
+margin-left: 100px;}
+
+.solutions{color:#1364a3;
+   font-size: 50px;
+    font-family: 'myriad pro';
+font-weight: bold;
+margin-left: 100px;}
+
+.name{color:#1364a3;
+    font-family: 'myriad pro';
+font-weight: bold;
+position: relative;
+left: 0px;}
+
+.graphic{color:white;
+font-family: 'myriad pro';
+font-size: 12px;
+font-weight: normal;
+letter-spacing: 0.7em;
+margin-left: 10px;}
+
+.logo{margin-top: -300px;position: relative;left: 0px;}
+
+.sky{position: relative;top:250px; left:0px;}
+
+/************************************************************** responsive home *************************/
+
+
+@media (min-width: 360px) and (max-width: 734px) {
+
+.ideas{
+z-index:3;
+    color: white;
+    font-family: 'myriad pro';
+    font-size: 50px;
+font-weight: bold;
+margin-left: 100px;
+margin-top: 180px;
+visibility: hidden;
+}
+
+.design{color:#1364a3;
+   font-size: 50px;
+    font-family: 'myriad pro';
+font-weight: bold;
+margin-left: 100px;
+visibility: hidden;
+}
+
+.solutions{color:#1364a3;
+   font-size: 50px;
+    font-family: 'myriad pro';
+font-weight: bold;
+margin-left: 100px;
+visibility: hidden;
+
+}
+
+.sky {
+    position: relative;
+    top: -218px;
+    left: -10px;
+    width: 100%;
+    height: 70%;
+}
+
+.logo {
+    margin-top: -182px;
+}
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************   css BG image **********************************************/
+
+
+
+.BG{/*background-image: url(images/BG1.jpg);*/
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+z-index: 1;
+}
+
+
+
+
+
+
+/******************************************************* css page who i am *************************************/
+.web-designer{color:white;
+font-family: 'myriad pro';
+font-size: 12px;
+font-weight: normal;
+    letter-spacing: 4.7em;
+margin-left: 10px;}
+
+
+.big-designer{
+  margin-left: -36px;
+  font-size: 206px;
+color:#1364a3;
+    font-family: 'myriad pro';
+font-weight: bold;
+}
+ 
+
+
+.who-i-am{margin-top: -300px;
+    margin-left: -768px;
+    color: white;
+    font-family: 'myriad pro';
+    font-size: 41px;
+    z-index:3;
+   }
+
+
+    .parag{color: white;
+      font-family: 'myriad pro';
+      margin-left: 500px;
+      font-size: 18px;
+    }
+
+
+  .BG-IAM{background:black;
+   border:1px solid #1364a3; 
+    height:80px;
+   width:83px;
+   position:absolute;
+   top:50px; 
+    left:308px;
+   z-index:1
+  }  
+
+
+
+/************************************************************** responsive who  iam *************************/
+
+
+
+
+@media (min-width: 360px) and (max-width: 800px) {
+
+
+
+    .big-designer { 
+     font-size:65px;
+    color: white;
+    font-family: 'myriad pro';
+    font-weight: bold;
+    margin-left: 0px;
+    }
+
+
+    .web-designer{color: white;
+    font-family: 'myriad pro';
+    font-size: 8px;
+    font-weight: normal;
+    letter-spacing: 2em;
+    margin-left: 13px;
+  }
+
+
+    .parag{color: white;
+    font-family: 'myriad pro';
+    margin-left: 48px;
+    font-size: 16px;
+    }
+
+    .who-i-am{    margin-left: -126px;
+    color: white;
+    font-family: 'myriad pro';
+    font-size: 41px;
+    margin-top: -85px;}
+
+
+    .sky1{    position: relative;
+    width: 111%;
+    height: 70%;
+    left: -39px;
+    top: 62px;}
+
+    .BG-IAM{       background: black;
+    border: 1px solid #1364a3;
+    height: 80px;
+    width: 83px;
+    position: absolute;
+    top: 123px;
+    left: 152px;
+    z-index: 1;}
+    
+
+}
+
+
+
+
+
+
+ /********************************************************** css page skills ********************************************/
+
+.creativity{color:white;
+font-family: 'myriad pro';
+font-size: 12px;
+font-weight: normal;
+    letter-spacing: 5.8em;
+margin-left: 50px;
+margin-top:-370px;
+position: relative;
+top: 20px;
+
+
+}
+
+    .skills{margin-left: -36px;
+  font-size: 250px;
+color:#1364a3;
+    font-family: 'myriad pro';
+font-weight: bold;}
+
+.sky-skills{
+position:relative;
+z-index:1;
+  position: relative;
+    top: 0px;
+    left: 150px;
+}
+
+.vl1 {
+    border-left: 1px solid white;
+    position: relative; 
+   left: 230px;
+    height: 100px;
+    top: -50px;
+}
+
+.vl2 {
+    border-left: 1px solid white;
+    position: relative; 
+
+       height: 169px;
+    left: 180px;
+      top: -50px;
+}
+
+
+.vl3 {
+    border-left: 1px solid white;
+    position: relative; 
+
+       height: 169px;
+    left: 110px;
+      top: -50px;
+}
+
+.vl4 {
+    border-left: 1px solid white;
+    position: relative; 
+
+       height: 70px;
+    left: 20px;
+      top: -50px;
+}
+
+
+.vl5 {
+    border-left: 1px solid white;
+    position: relative; 
+
+       height: 50px;
+    left: -50px;
+      top: -50px;
+}
+
+.vl6 {
+    border-left: 1px solid white;
+    position: relative; 
+
+       height: 100px;
+    left: -100px;
+      top: -50px;
+}
+
+
+.circle {border-radius: 50%;
+  width: 10px;
+  height: 10px; 
+  background-color: #1364a3;
+  position: relative;
+  left: 225px;
+  top:-50px;
+}
+
+.circle1 {border-radius: 50%;
+  width: 10px;
+  height: 10px; 
+  background-color: #1364a3;
+  position: relative;
+  left: 175px;
+    top: -50px;
+}
+
+.circle2 {border-radius: 50%;
+  width: 10px;
+  height: 10px; 
+  background-color: #1364a3;
+  position: relative;
+  left: 105px;
+    top: -50px;
+}
+
+.circle3 {border-radius: 50%;
+  width: 10px;
+  height: 10px; 
+  background-color: #1364a3;
+  position: relative;
+  left: 15px;
+    top: -50px;
+}
+
+.circle4 {border-radius: 50%;
+  width: 10px;
+  height: 10px; 
+  background-color: #1364a3;
+  position: relative;
+  left: -54px;
+    top: -50px;
+}
+
+.circle5 {border-radius: 50%;
+  width: 10px;
+  height: 10px; 
+  background-color: #1364a3;
+  position: relative;
+  left: -104px;
+    top: -50px;
+}
+
+
+.photoshop{font-family:'myriad pro';
+font-size: 14px;
+color: white;
+position: relative;
+left: 200px; 
+font-weight: normal;
+top:-50px;
+
+}
+
+.illustrator{font-family:'myriad pro';
+font-size: 14px;
+color: white;
+position: relative;
+left: 150px; 
+font-weight: normal;
+top:-50px;}
+
+.after{font-family:'myriad pro';
+font-size: 14px;
+color: white;
+position: relative;
+left: 100px; 
+font-weight: normal;
+top:-50px;
+}
+
+.premier{font-family:'myriad pro';
+font-size: 14px;
+color: white;
+position: relative;
+left: 0px; 
+font-weight: normal;
+  font-style: normal;
+  top:-50px;
+}
+
+
+
+.flash{font-family:'myriad pro';
+font-size: 14px;
+color: white;
+position: relative;
+left: -70px; 
+font-weight: normal;
+  font-style: normal;
+  top:-50px;
+
+
+}
+
+.code{font-family:'myriad pro';
+font-size: 14px;
+color: white;
+position: relative;
+left: -110px; 
+font-weight: normal;
+  font-style: normal;
+top:-50px;}
+
+
+
+
+ /********************************************************** css page skills responsive ********************************************/
+
+@media (min-width: 360px) and (max-width: 734px) {
+.sky-skills {
+   
+    z-index: 1;
+    position: relative;
+    top: 0px;
+    left: 11px;
+    width: 100%;
+    height: 70%;
+}
+
+
+.creativity {
+    
+    color: white;
+
+    font-size: 10px;
+    font-weight: normal;
+    letter-spacing: 2.8em;
+    margin-left: 37px;
+    margin-top: -115px;
+}
+
+
+.skills {
+    margin-left: -3px;
+    font-size: 119px;
+    color: #1364a3;
+    font-family: 'myriad pro';
+    font-weight: bold;
+}
+
+
+
+.vl1 {
+    border-left: 1px solid white;
+    position: relative;
+    left: 36px;
+    height: 100px;
+    top: 661px;
+    margin-top: -672px;
+}
+
+
+
+.circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #1364a3;
+    position: relative;
+    left: 31px;
+    top: 660px;
+}
+
+.photoshop {
+    font-family: 'myriad pro';
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 15px;
+    font-weight: normal;
+    top: 671px;
+}
+
+
+.vl2 {
+    border-left: 1px solid white;
+    position: relative;
+    height: 169px;
+    left: 104px;
+    top: 487px;
+}
+
+.circle1 {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #1364a3;
+    position: relative;
+    left: 99px;
+    top: 486px;
+}
+
+.illustrator {
+    font-family: 'myriad pro';
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 86px;
+    font-weight: normal;
+    top: 480px;
+}
+
+.vl3 {
+    border-left: 1px solid white;
+    position: relative;
+    height: 102px;
+    left: 164px;
+    top: 248px;
+}
+
+.circle2 {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #1364a3;
+    position: relative;
+    left: 159px;
+    top: 248px;
+}
+
+
+.after {
+    font-family: 'myriad pro';
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 139px;
+    font-weight: normal;
+    top: 249px;
+}
+
+
+.vl4 {
+    border-left: 1px solid white;
+    position: relative;
+    height: 70px;
+    left: 218px;
+    top: 76px;
+}
+
+
+
+.circle3 {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #1364a3;
+    position: relative;
+    left: 213px;
+    top: 73px;
+}
+
+.premier {
+    font-family: 'myriad pro';
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 198px;
+    font-weight: normal;
+    font-style: normal;
+    top: 67px;
+}
+
+.vl5 {
+    border-left: 1px solid white;
+    position: relative;
+    height: 50px;
+    left: 278px;
+    top: -64px;
+}
+
+.circle4 {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #1364a3;
+    position: relative;
+    left: 274px;
+    top: -65px;
+}
+
+.flash {
+    font-family: 'myriad pro';
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 265px;
+    font-weight: normal;
+    font-style: normal;
+    top: -69px;
+}
+
+.vl6 {
+    border-left: 1px solid white;
+    position: relative;
+    height: 100px;
+    left: 336px;
+    top: -184px;
+}
+
+.circle5 {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #1364a3;
+    position: relative;
+    left: 331px;
+    top: -185px;
+}
+
+.code {
+    font-family: 'myriad pro';
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 318px;
+    font-weight: normal;
+    font-style: normal;
+    top: -176px;
+}
+
+}
+
+
+
+
+
+
+
+
+ /********************************************************** css page projects ********************************************/
+
+
+ .sky-moon{
+
+      width: 70%;
+    height: 70%;
+    position: relative;
+    left: -85px;
+ }
+
+ .moon {
+
+      width: 300px;
+    height: 300px;
+    position: relative;
+    top: -180px;
+    left: -82px;
+ }
+
+
+ .BG-PROJECTS{    background: none;
+    border: 3px solid #1364a3;
+    height: 270px;
+    width: 176px;
+    position: absolute;
+    top: 200px;
+    left: -350px;
+    z-index: 1;
+}
+
+.sky-projects{
+  margin-top: -220px;
+   height:20%;
+   width:50%;
+   position:relative;
+   left:-430px;
+   z-index:2
+}
+
+.projects {
+  font-family:'myriad pro';
+  font-size:30px;
+  color:white;
+  font-weight:bold;
+  position:relative;
+          top:-200px;
+          left:-415px
+}
+
+.vl-projects{
+
+    border-top: 3px solid #1364a3;
+    position: relative;
+width: 40%;
+position: relative;
+left: 600px;
+margin-top: -358px;
+}
+
+.take-a-look{
+  font-family: 'myriad pro';
+  font-weight: bold;
+  position: relative;
+  left: 700px;
+  font-size: 50px;
+  color:#1364a3;
+}
+
+.website{
+  font-family: 'myriad pro';
+  font-weight: bold;
+    position: relative;
+  left: 570px;
+  font-size: 30px;
+  color: white;
+
+
+
+}
+
+.lien-website{color:white;
+ position: relative;
+  left: 140px;}
+
+
+  /************************************************************** css responsive projects *************************/
+
+
+
+  @media (min-width: 360px) and (max-width: 734px) {
+
+  .BG-PROJECTS {
+    background: none;
+    border: 3px solid #1364a3;
+    height: 130px;
+    width: 89px;
+    position: absolute;
+  top: 188px;
+    left: 53px;
+    z-index: 1;
+}
+
+.moon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -64px;
+    left: -32px;
+}
+
+
+.sky-moon {
+  margin-top: 107px;
+    width: 43%;
+    height: 43%;
+    position: relative;
+    left: -85px;
+}
+
+.projects {
+    font-family: 'myriad pro';
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: -79px;
+    left: 1px;
+}
+
+.sky-projects {
+    margin-top: -124px;
+    height: 20%;
+    width: 50%;
+    position: relative;
+    left: -13px;
+    z-index: 2;
+}
+
+
+.vl-projects {
+    border-top: 3px solid #1364a3;
+    position: relative;
+    width: 24%;
+    position: relative;
+    left: 159px;
+    margin-top: -187px;
+}
+
+.take-a-look {
+    font-family: 'myriad pro';
+    font-weight: bold;
+    font-size: 19px;
+    color: #1364a3;
+    position: relative;
+    left: 195px;
+}
+
+.website {
+    font-family: 'myriad pro';
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 104px;
+}
+
+
+} 
+
+
+
+
+
+   /********************************************************** css page contact ********************************************/
+
+
+   .get-in{margin-top: 10px;
+    font-family: 'myriad pro';
+    font-weight: bold;
+    font-size: 60px;
+    color:#1364a3;
+  }
+
+  .touch{
+    font-family: 'myriad pro';
+    font-size: 40px;
+    color:white;
+    position: relative;
+    top: -40px;
+    left: -18px;
+  }
+
+
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: 203px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    position: relative;
+    left: 180px;
+}
+
+
+.form-control1{
+
+
+      display: block;
+    width: 100%;
+    height: 122px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
+.btn-default {
+      color: white;
+    width: 173px;
+    background-color: #1364a3;
+    /* border-color: #ccc; */
+    position: relative;
+    left: 133px;
+}
+
+.btn-default {
+
+     border-color: transparent; 
+}
+
+
+
+
+/************************************************************** css responsive contact *************************/
+
+
+@media (min-width: 360px) and (max-width: 734px) {
+
+  .form-control {
+    display: block;
+    margin-left: -149px;
+    width: 166%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+.form-control1 {
+    display: block;
+    width: 165%;
+    margin-left: -149px;
+    height: 122px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.btn-default {
+    color: white;
+    width: 173px;
+    background-color: #1364a3;
+    /* border-color: #ccc; */
+    position: relative;
+    left: -98px;
+}
+
+}
+
+
+
+
+/************************************************************** css test        *************************/
+
+* {
+
+  list-style: none;
+  text-decoration: none;
+}
+
+.content{
+
+  position: absolute;
+  top: 50%
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.content h1{
+
+color: #fff;
+font-family: 'myriad pro';
+font-weight: 200;
+font-size: 40px;
+
+
+}
+
+nav {
+
+  width: 100%;
+
+  height: 70px;
+  position: static;
+  z-index:1;
+
+}
+
+nav #menu{
+
+  float: left;
+  left: 55%;
+  position: relative;
+
+}
+
+nav #menu li {
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+  line-height: 70px;
+  position: relative;
+transition:all 0.3s ease-out;
+
+}
+
+
+nav #menu li a {color: #fff;
+  font-family: 'myriad pro';
+  font-weight: 200;
+
+
+
+}
+
+
+#toggle{
+
+  position: absolute;
+  right: 20px;
+  top:14px;
+  z-index:999;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  transition:all 0.3s ease-out;
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+
+#toggle .span{
+
+height: 3px;
+background: #fff;
+transition:all 0.3s ease-out;
+background-visibiliy:hidden;
+margin:5px auto;
+
+}
+
+
+#toggle.on #one{
+
+  transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+
+#toggle.on #two{ 
+opacity: 0;
+
+}
+
+#toggle.on #three{
+
+  transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+
+#resize{
+
+  z-index: 1;
+  top: 0px;
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition:all 1s ease-out;
+  display: table;
+
+}
+
+#resize #menu{
+
+  height: 50px;
+  display: table-cell;
+  vertical-align: center;
+
+}
+
+#resize #menu li {
+
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 50px;
+  min-height: 50px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+/****************
+#resize li:nth-child(1) {
+
+  margin-top: 140px;
+}
+****/
+
+
+#resize #menu li a {
+  color: #fff;
+
+}
+
+#resize.active{
+  visibility: visible;
+  opacity: 0.99;
+
+}
+
+
+@media(max-width: 768px) {
+
+  #toggle{
+visibility: visible;
+opacity: 1;
+margin-top: 6px;
+
+
+  }
+
+  #menu a { font-family: 'myriad pro';
+  font-weight: 200;
+  font-size: 20px;
+
+
+
+  }
+
+  nav #menu {
+
+    display: none;
+
+  } 
+
+
+
+}
+
+@media(min-width: 768px) {
+
+  #resize{
+    visibility: hidden !important;
+  }
+
+
+  }
+
+
+
+  /******************************************************************** navbar 1 ****************************************/
+
+  nav {
+
+  width: 100%;
+
+  height: 70px;
+  position: static;
+  z-index:1;
+
+}
+
+nav #menu1{
+
+  float: left;
+  left: 55%;
+  position: relative;
+
+}
+
+nav #menu1 li {
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+  line-height: 70px;
+  position: relative;
+transition:all 0.3s ease-out;
+
+}
+
+
+nav #menu1 li a {color: #fff;
+  font-family: 'myriad pro';
+  font-weight: 200;
+
+
+
+}
+
+
+#toggle1{
+
+  position: absolute;
+  right: 20px;
+  top:14px;
+  z-index:999;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  transition:all 0.3s ease-out;
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+
+#toggle1 .span{
+
+height: 3px;
+background: #fff;
+transition:all 0.3s ease-out;
+background-visibiliy:hidden;
+margin:5px auto;
+
+}
+
+
+#toggle1.on #one{
+
+  transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+
+#toggle1.on #two{ 
+opacity: 0;
+
+}
+
+#toggle1.on #three{
+
+  transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+
+#resize1{
+
+  z-index: 1;
+  top: 0px;
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition:all 1s ease-out;
+  display: table;
+
+}
+
+#resize1 #menu1{
+
+  height: 50px;
+  display: table-cell;
+  vertical-align: center;
+
+}
+
+#resize1 #menu1 li {
+
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 50px;
+  min-height: 50px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+/****************
+#resize li:nth-child(1) {
+
+  margin-top: 140px;
+}
+****/
+
+
+#resize1 #menu1 li a {
+  color: #fff;
+
+}
+
+#resize1.active{
+  visibility: visible;
+  opacity: 0.99;
+
+}
+
+
+@media(max-width: 768px) {
+
+  #toggle1{
+visibility: visible;
+opacity: 1;
+margin-top: 6px;
+
+
+  }
+
+  #menu1 a { font-family: 'myriad pro';
+  font-weight: 200;
+  font-size: 20px;
+
+
+
+  }
+
+  nav #menu1 {
+
+    display: none;
+
+  } 
+
+
+
+}
+
+@media(min-width: 768px) {
+
+  #resize1{
+    visibility: hidden !important;
+  }
+
+
+  }
+
+
+
+  /******************************************************************** navbar 2 ****************************************/
+
+
+
+    nav {
+
+  width: 100%;
+
+  height: 70px;
+  position: static;
+  z-index:1;
+
+}
+
+nav #menu2{
+
+  float: left;
+  left: 55%;
+  position: relative;
+
+}
+
+nav #menu2 li {
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+  line-height: 70px;
+  position: relative;
+transition:all 0.3s ease-out;
+
+}
+
+
+nav #menu2 li a {color: #fff;
+  font-family: 'myriad pro';
+  font-weight: 200;
+
+
+
+}
+
+
+#toggle2{
+
+  position: absolute;
+  right: 20px;
+  top:14px;
+  z-index:999;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  transition:all 0.3s ease-out;
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+
+#toggle2 .span{
+
+height: 3px;
+background: #fff;
+transition:all 0.3s ease-out;
+background-visibiliy:hidden;
+margin:5px auto;
+
+}
+
+
+#toggle2.on #one{
+
+  transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+
+#toggle2.on #two{ 
+opacity: 0;
+
+}
+
+#toggle2.on #three{
+
+  transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+
+#resize2{
+
+  z-index: 1;
+  top: 0px;
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition:all 1s ease-out;
+  display: table;
+
+}
+
+#resize2 #menu1{
+
+  height: 50px;
+  display: table-cell;
+  vertical-align: center;
+
+}
+
+#resize2 #menu2 li {
+
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 50px;
+  min-height: 50px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+/****************
+#resize li:nth-child(1) {
+
+  margin-top: 140px;
+}
+****/
+
+
+#resize2 #menu2 li a {
+  color: #fff;
+
+}
+
+#resize2.active{
+  visibility: visible;
+  opacity: 0.99;
+
+}
+
+
+@media(max-width: 768px) {
+
+  #toggle2{
+visibility: visible;
+opacity: 1;
+margin-top: 6px;
+
+
+  }
+
+  #menu2 a { font-family: 'myriad pro';
+  font-weight: 200;
+  font-size: 20px;
+
+
+
+  }
+
+  nav #menu2 {
+
+    display: none;
+
+  } 
+
+
+
+}
+
+@media(min-width: 768px) {
+
+  #resize2{
+    visibility: hidden !important;
+  }
+
+
+  }
+
+
+    /******************************************************************** navbar 3 ****************************************/
+
+
+    nav {
+
+  width: 100%;
+
+  height: 70px;
+  position: static;
+  z-index:1;
+
+}
+
+nav #menu3{
+
+  float: left;
+  left: 55%;
+  position: relative;
+
+}
+
+nav #menu3 li {
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+  line-height: 70px;
+  position: relative;
+transition:all 0.3s ease-out;
+
+}
+
+
+nav #menu3 li a {color: #fff;
+  font-family: 'myriad pro';
+  font-weight: 200;
+
+
+
+}
+
+
+#toggle3{
+
+  position: absolute;
+  right: 20px;
+  top:14px;
+  z-index:999;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  transition:all 0.3s ease-out;
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+
+#toggle3 .span{
+
+height: 3px;
+background: #fff;
+transition:all 0.3s ease-out;
+background-visibiliy:hidden;
+margin:5px auto;
+
+}
+
+
+#toggle3.on #one{
+
+  transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+
+#toggle3.on #two{ 
+opacity: 0;
+
+}
+
+#toggle3.on #three{
+
+  transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+
+#resize3{
+
+  z-index: 1;
+  top: 0px;
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition:all 1s ease-out;
+  display: table;
+
+}
+
+#resize3 #menu3{
+
+  height: 50px;
+  display: table-cell;
+  vertical-align: center;
+
+}
+
+#resize3 #menu3 li {
+
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 50px;
+  min-height: 50px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+/****************
+#resize li:nth-child(1) {
+
+  margin-top: 140px;
+}
+****/
+
+
+#resize3 #menu3 li a {
+  color: #fff;
+
+}
+
+#resize3.active{
+  visibility: visible;
+  opacity: 0.99;
+
+}
+
+
+@media(max-width: 768px) {
+
+  #toggle3{
+visibility: visible;
+opacity: 1;
+margin-top: 6px;
+
+
+  }
+
+  #menu3 a { font-family: 'myriad pro';
+  font-weight: 200;
+  font-size: 20px;
+
+
+
+  }
+
+  nav #menu3 {
+
+    display: none;
+
+  } 
+
+
+
+}
+
+@media(min-width: 768px) {
+
+  #resize3{
+    visibility: hidden !important;
+  }
+
+
+  }
+
+
+/******************************************************************** navbar 4 ****************************************/
+
+
+
+    nav {
+
+  width: 100%;
+
+  height: 70px;
+  position: static;
+  z-index:1;
+
+}
+
+nav #menu4{
+
+  float: left;
+  left: 55%;
+  position: relative;
+
+}
+
+nav #menu4 li {
+  display: inline-block;
+  padding: 0px 10px;
+  cursor: pointer;
+  line-height: 70px;
+  position: relative;
+transition:all 0.3s ease-out;
+
+}
+
+
+nav #menu4 li a {color: #fff;
+  font-family: 'myriad pro';
+  font-weight: 200;
+
+
+
+}
+
+
+#toggle4{
+
+  position: absolute;
+  right: 20px;
+  top:14px;
+  z-index:999;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  transition:all 0.3s ease-out;
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+
+#toggle4 .span{
+
+height: 3px;
+background: #fff;
+transition:all 0.3s ease-out;
+background-visibiliy:hidden;
+margin:5px auto;
+
+}
+
+
+#toggle4.on #one{
+
+  transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+
+#toggle4.on #two{ 
+opacity: 0;
+
+}
+
+#toggle4.on #three{
+
+  transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+
+#resize4{
+
+  z-index: 1;
+  top: 0px;
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition:all 1s ease-out;
+  display: table;
+
+}
+
+#resize4 #menu4{
+
+  height: 50px;
+  display: table-cell;
+  vertical-align: center;
+
+}
+
+#resize4 #menu4 li {
+
+  display: block;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 50px;
+  min-height: 50px;
+  font-weight: 200;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+/****************
+#resize li:nth-child(1) {
+
+  margin-top: 140px;
+}
+****/
+
+
+#resize4 #menu4 li a {
+  color: #fff;
+
+}
+
+#resize4.active{
+  visibility: visible;
+  opacity: 0.99;
+
+}
+
+
+@media(max-width: 768px) {
+
+  #toggle4{
+visibility: visible;
+opacity: 1;
+margin-top: 6px;
+
+
+  }
+
+  #menu4 a { font-family: 'myriad pro';
+  font-weight: 200;
+  font-size: 20px;
+
+
+
+  }
+
+  nav #menu4 {
+
+    display: none;
+
+  } 
+
+
+
+}
+
+@media(min-width: 768px) {
+
+  #resize4{
+    visibility: hidden !important;
+  }
+
+
+  }
