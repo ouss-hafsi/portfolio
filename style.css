@@ -190,7 +190,7 @@
        
     }
     .row-item > img
-    {
+    {cursor: pointer;
       width:100%;
       
      
