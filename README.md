@@ -34,6 +34,8 @@ Interactive features
 3.	Contact form information submission content automatically checked (with associated error messages sent to user) and stored using Javascript
 
 ## Wire Frame
+![home-screen-shot](https://user-images.githubusercontent.com/33556772/176100397-92e8a2fb-06f6-44ff-8a7c-684e2c4d6f03.png)
+![about-screen-shot](https://user-images.githubusercontent.com/33556772/176100412-57785b9a-c0c0-4044-8376-666ba0c696de.png)
 
 
 ## About
