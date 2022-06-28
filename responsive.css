@@ -72,16 +72,15 @@
         animation-delay: 1s;
         animation: fadeIn 1s ease-in both;
     }
-
     .hi-home {
         color: white;
         position: relative;
-        top: 228px;
-        left: 175px;
+        top: 169px;
         font-family: 'open Sans';
         font-weight: 700;
         font-size: 40px;
         animation: fadeIn 3s;
+        margin-left: 144px;
     }
   }
 
