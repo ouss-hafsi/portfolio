@@ -9,7 +9,8 @@ I’m passionate about because it gives creators a unique platform to present th
 2.	Change into the new directory.
 3.	If you plan to make contributions, use git init to initialize your Git repository. Then create and checkout a new branch name response using command git checkout -b response.
 
-Project Planning
+## Project Planning
+
 1.	Home Page with name and a text explaining what I do:
 	* Brief description of portfolio content and purpose
     * social menu to navigate to different pages
@@ -32,7 +33,10 @@ Interactive features
 2.	Website navigation system built using Javascript
 3.	Contact form information submission content automatically checked (with associated error messages sent to user) and stored using Javascript
 
+## Wire Frame
+
+
 ## About
-Thank you for checking out my Portfolio Project. I’m a Tunisian-American Software Engineering Candidate at General Assembly and Graphic Designer based in Los Angeles, California. I like helping others by sharing ideas and new creations. I’m always looking forward to working with new people and learning more skills. If you would like to see more of my work, please visit my [Behance] (https://www.behance.net/oussamaben4273I) or visit my [Linkedin] at (https://www.linkedin.com/in/oussema-ben-hafsi-2211b5217/)
+Thank you for checking out my Portfolio Project. I’m a Tunisian-American Software Engineering Candidate at General Assembly and Graphic Designer based in Los Angeles, California. I like helping others by sharing ideas and new creations. I’m always looking forward to working with new people and learning more skills. If you would like to see more of my work, please visit my Behance profile at https://www.behance.net/oussamaben4273I or visit my Linkedin profile at https://www.linkedin.com/in/oussema-ben-hafsi-2211b5217/
 
 
