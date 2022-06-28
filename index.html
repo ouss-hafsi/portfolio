@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<title>Portfolio</title>
+
+</head>
+<body>
+
+
+
+
+
+	<header class="hide">
+        <img class="logo" src="images/log.png" alt="logo" >
+		<nav>
+			<ul class="nav-links">
+				<li id="home-nav">Home</li>
+				<li id="about-nav" >About me</li>
+				<li id="project-nav">Projects</li>
+				<li id="contact-nav">Contact</li>
+			</ul>
+		</nav>
+
+		<ul class="social-icones">
+			<li><a href="https://www.behance.net/oussamaben4273" target="_blank"><img id="behance-icone" class="icons" src="images/behance-icon.png" alt=""></a></li>
+			<li><a href="https://www.linkedin.com/in/oussema-ben-hafsi-2211b5217/" target="_blank"><img class="icons" src="images/linkedin-icon.png" alt=""></a></li>
+			<li><a href="https://git.generalassemb.ly/ouss" target="_blank"><img class="icons" src="images/gitHubBlue.png" alt=""></a></li>
+        </ul>
+	   <div class="menu">
+		<h1 class="btn-toggle">menu</h1>
+		</div>
+	
+	</header>
+<!-- <------------     Home-Page	   ------->
+
+	<main>
+		<div id="home-page" class="hide">
+	
+			<div class="presentation-block">
+				<p class="hi-home">Hi!</p>
+			
+		<p class="presentation"> My name is Oussema and I build digital projects on the web. 
+			I like helping others by sharing ideas and new creations,
+			 so I created this website to share my work and connect with
+			  others who would like to collaborate. I'm always looking
+			   forward to working with new people and learning more skills.</p>
+
+		  
+		
+			</div>
+
+		
+	</div>
+
+
+
+<!-- <------------     About-Page	   ------->
+	<div id="about-page" class="hide">
+		<div class="about-text">
+
+			<h1 class="about-me">About<span> Me</span></h1>
+			<p class="title-about">Graphic Designer/Software Engineer</p>
+			<p class="about-description">I'm a Tunisian-American Software Engineering Candidate and Graphic Designer based in Los Angeles,
+				 California. I'm currently enrolled in the General Assembly immersive program for software engineering and am excited to
+				  complete the program, by the end of summer 2022. Over the last 3 years I've provided design services for real estate
+				   corporations, healthcare providers and international consulting firms, such as Propel International based in Dubai.
+				    I've honed many skills over the years including Adobe Creative Suite, html/CSS programming, Revit, SolidWorks,
+					 AutoCAD, and more. I am certified in SolidWorks and CAD drafting.</p>
+			  <button class="btn-about"> Resume </button>
+			</div>
+	
+	</div>
+
+<!-- <------------     Projects-Page	   ------->
+
+<div id="project-page" class="hide">
+
+
+	<div class="container">
+		<div class="row">
+		  
+		  <div id="next-radio" class="row-item">
+		  <img  src="images/next-mock up.png"/>
+		  </div>
+		  
+			<div id="ghanili" class="row-item">
+		  <img src="images/Mock up.jpg"/>
+			   </div>
+		  
+		  <div id="threed-design" class="row-item">
+		  <img src="images/3D.png"/>
+			 </div>
+		  </div>
+		  <div class="row">
+		  <div class="row-item">
+		
+			<img  src="images/after effects.png"/>
+				</div>
+		  
+		  <div class="row-item">
+			<img  src="images/cad.png"/>
+			 </div>
+		  
+		  <div class="row-item">
+		  
+			<img  src="images/logo-design.png"/>
+			  </div>
+		  </div>
+		   <!-- <div class="row">
+		  <div class="row-item">
+		   
+		  <img  src="https://static.pexels.com/photos/226023/pexels-photo-226023.jpeg"/>
+			   </div>
+		  
+			  </div> -->
+		  </div>
+
+
+</div>
+
+<!-- <------------     contact-Page	   ------->
+
+
+<div id="contact-page" class="hide" >
+	<div class="forms-block">
+	<h1 class="lets-talk-text">Let's Talk</h1>
+	<form  class="form">
+		<input style="color:white ;" id="name-contact" type="text" placeholder="name ..." name="name">
+		<input style="color:white ;" id="email" type="email" placeholder="email ..." name="email">
+		<input  id="description-contact" type="text" class="input-description" placeholder="description ..." name="description">
+		<button id="submit"> send</button>
+	</form>
+</div>
+
+</div>
+
+	</main>
+
+<!-- <------------     overlay-Pages   ------->
+
+<div id="project-1" class="overlay">
+		<p class="closebtn" onclick="closeNav()">Close</p>
+		<div class="overlay-content">
+	<img style="width: 50%;" src="images/next.home.jpg" alt="">
+	<img style="width: 50%;" src="images/actu.jpg" alt="">
+	<img style="width: 50%;" src="images/gallerie1.jpg" alt="">
+	<img style="width: 50%;" src="images/emission.jpg" alt="">
+	<img style="width: 50%;" src="images/contact.jpg" alt="">
+		</div>
+</div>
+
+<div id="project-2" class="overlay1">
+	<p class="closebtn1" onclick="closeNav1()">Close</p>
+	<div class="overlay-content1">
+<img style="width: 50%;" src="images/mock up_1.png" alt="">
+<img style="width: 50%;" src="images/mock up_2.png" alt="">
+<img style="width: 50%;" src="images/mock up_3.png" alt="">
+<img style="width: 50%;" src="images/mock up_4.png" alt="">
+<img style="width: 50%;" src="images/mock up_5.png" alt="">
+	</div>
+</div>
+
+<div id="Resume" class="overlay2">
+	<p class="closebtn2" onclick="closeNav2()">Close</p>
+	<div class="overlay-content2">
+<img style="width: 50%;" src="images/OBH-Resume-4.9.22_M.png" alt="">
+	</div>
+</div>
+
+
+<div id="project-3" class="overlay3">
+	<p class="closebtn3" onclick="closeNav3()">Close</p>
+	<div class="overlay-content3">
+<img style="width: 50%;" src="images/3D View 4 2.jpg" alt="">
+<img style="width: 50%;" src="images/living room 2.jpg" alt="">
+<img style="width: 50%;" src="images/FRENCH PRESS -1.JPG" alt="">
+<img style="width: 50%;" src="images/FRENCH PRESS -BACK.JPG" alt="">
+<img style="width: 50%;" src="images/EXPLODED.JPG" alt="">
+	</div>
+</div>
+
+
+
+
+<div id="welcome-page-dark"  >
+	<div class="dark-page">
+		<img  class="logo-dark-mode" src="images/log.png" alt="">
+		<div class="choices">
+		<p id="dark" class="dark1">Dark mode</p>
+		<p id ="light" class="light1">Light mode</p>
+		</div>
+		<button id="dark-btn" class="button-dark-page"> continue</button>
+</div>
+</div>
+
+
+<div id="welcome-page-light" class="hide"  >
+	<div class="light-page">
+		<img  class="logo-white-mode" src="images/black-logo.png" alt="">
+		<div class="choices">
+		<p id="dark-light-page"  class="dark2">Dark mode</p>
+		<p id ="light-light-page" class="light2">Light mode</p>
+		</div>
+		<p class="coming-soon">COMING SOON!</p>
+</div>
+</div>
+
+
+
+
+
+
+
+<div id="overlay-toggle" class="hide">
+	<nav>
+		<ul class="mobile-menu">
+			<li id="home-nav-toggle">Home</li>
+			<li id="about-nav-toggle" >About me</li>
+			<li id="project-nav-toggle">Projects</li>
+			<li id="contact-nav-toggle">Contact</li>
+		</ul>
+	</nav>
+</div>
+
+
+<div id="information-page" class="hide">
+	
+
+	<div class="result-info">
+	<ul id="ul-check"></ul>
+	<button id="confirm-text">confirm</button>
+	</div>
+	
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
