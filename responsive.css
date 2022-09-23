@@ -86,7 +86,18 @@
 
 
 
-
+  @media screen and (max-width: 600px) {
+    .hi-home {
+        color: white;
+        position: relative;
+        top: 115px;
+        font-family: 'open Sans';
+        font-weight: 700;
+        font-size: 40px;
+        animation: fadeIn 3s;
+        margin-left: 144px;
+    }
+  }
 
 
 
