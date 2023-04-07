@@ -555,6 +555,33 @@
             animation: opacity 4s forwards;
             cursor: pointer;
         }
+
+        .light1 span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .light1 span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .light1:hover span {
+          padding-right: 15px;
+        }
+        
+        .light1:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+
+
     
         .dark2 {
             color:black;
@@ -588,7 +615,7 @@
             animation: fadeIn 1s ease-in both;	
         }
     
-        .button-dark-page{
+        /* .button-dark-page{
             margin-top: 20px;
             border: none;
             background-color:transparent;
@@ -599,7 +626,72 @@
             -webkit-animation: opacity 8s forwards; 
             animation: opacity 4s forwards;
             cursor: pointer;
+        } */
+        :active, :hover, :focus {
+          outline: 0!important;
+          outline-offset: 0;
+                }
+        ::before,
+        ::after {
+          position: absolute;
+          content: "";
+                }
+        
+        .btn {
+          position: relative;
+          margin-top: 20px;
+          display: inline-block;
+          width: auto; height: auto;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          min-width: 150px;
+                }  
+                
+        .btn span {         
+          position: relative;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: bold;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          top: 0; left: 0;
+          padding: 15px 20px;
+          transition: 0.3s;
+          color: #41aedd;
+                }
+        
+        .btn-3 {
+           padding: 5px;
+                }
+        
+        .btn-3::before,
+        .btn-3::after {
+          background: transparent;
+          z-index: 2;
+                }
+        /* 11. hover-border-1 */
+        .btn.hover-border-1::before,
+        .btn.hover-border-1::after {
+          width: 10%; height: 25%;
+          transition: 0.35s;
         }
+        .btn.hover-border-1::before {
+          top: 0; left: 0;
+          border-left: 1px solid rgb(255, 255, 255);
+          border-top: 1px solid rgb(255, 255, 255);
+        }
+        .btn.hover-border-1::after {
+          bottom: 0; right: 0;
+          border-right: 1px solid rgb(255, 255, 255);
+          border-bottom: 1px solid rgb(255, 255, 255);
+        }
+        .btn.hover-border-1:hover::before,
+        .btn.hover-border-1:hover::after {
+          width: 99%;
+          height: 98%;
+        }
+
     
         .coming-soon{
             color: black; 

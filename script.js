@@ -360,13 +360,13 @@ const darkBtn = document.querySelector('#dark-btn')
 const lightPageText = document.querySelector('#light')
 const darkPageText = document.querySelector('#dark-light-page')
 
-darkPageText.addEventListener('mouseover', function(){
+darkPageText.addEventListener('click', function(){
     welcomePageDark.classList.remove('hide')
     welcomePageLight.classList.add('hide')
     body.style.background = 'black'
 })
 
-lightPageText.addEventListener('mouseover', function(){
+lightPageText.addEventListener('click', function(){
     welcomePageDark.classList.add('hide')
     welcomePageLight.classList.remove('hide')
     body.style.background = 'white'
