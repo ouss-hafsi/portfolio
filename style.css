@@ -161,6 +161,8 @@
         font-family:'open sans';
         color:white;
         animation: fadeIn 3s; 
+        width: 150px;
+        height: 50px;
     }
     
     
@@ -202,6 +204,12 @@
       
      
      
+    }
+
+    .project-name {
+      color: white;
+      font-family: 'Open Sans';
+      font-weight: 500;
     }
     
     
